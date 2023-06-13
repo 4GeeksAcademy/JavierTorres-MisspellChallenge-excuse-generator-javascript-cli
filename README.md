@@ -47,12 +47,12 @@ The idea is to generate each part of the sentence randomly to come up with great
 1. Create an `app.py` file with one excuse hard-coded in one variable.
 2. The excuse must be in a variable:
 ```python
-excuse = 'The dog eat my homework when I finished'
+excuse = 'The dog ate my homework when I finished'
 ```
 3. Using python, create a function that generates and returns a random excuse with the following structure:
 ```python
 who = ['the dog','my granma','his turtle','my bird']
-what = ['eat','pissed','crushed','broked']
+what = ['ate','pissed','crushed','broked']
 when = ['before the class','right in time','when I finished','during my lunch','while I was praying']
 ```
 4. To create a consistent excuse, you have to concatenate one item from each array in the proper order.
